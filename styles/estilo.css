@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=PT+Serif&family=Vollkorn&display=swap');
+
+body {
+  background-color: rgba(5, 61, 61, 0.988);
+}
+
+i {
+  font-size: 30px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: orange;
+}
+
+.hero-img {
+  height: 200px;
+  width: auto;
+  margin: 20px;
+}
+
+.seccion-oscura {
+  color: orange;
+  background-color: black;
+}
+
+.seccion-clara {
+  color: orange;
+  background-color: rgba(5, 61, 61, 0.988);
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+
+/* Sección Hero */
+
+.hero-principal h2 {
+  color: orange;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+
+/* Sobre mí */
+
+.sobre-mi {
+  height: 350px;
+  padding: 10px;
+  background-color: orange;
+  color: black;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: justify;
+}
+
+/* Habilidades */
+
+.habilidades {
+  padding: 40px 20px;
+}
+
+.habilidades .columna {
+  padding: 25px 50px;
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.habilidades i {
+  font-size: 2.5rem;
+  color: rgba(5, 61, 61, 0.988);
+  background-color: orange;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.habilidades-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: rgba(5, 61, 61, 0.988);
+  background-color: orange
+}
+
+/* Proyectos */
+.proyectos-recientes {
+  padding: 10px 20px 80px 20px;
+}
+
+.proyecto img {
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  min-height: 60px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a {
+  background-color: orange;
+  color: black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid rgba(5, 61, 61, 0.988);
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: black;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: rgba(5, 61, 61, 0.988);
+  color: orange;
+  border: 20px solid rgba(5, 61, 61, 0.988);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
